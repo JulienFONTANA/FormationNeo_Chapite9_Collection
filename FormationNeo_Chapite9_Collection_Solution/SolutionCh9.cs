@@ -75,7 +75,6 @@ namespace FormationNeo_Chapite9_Collection_Solution
             listeHero.Add(CouréConcis);
 
             Console.Write("Ma liste contient les noms : ");
-            // Itérateur
             foreach (var item in listeHero)
             {
                 Console.Write(item.Nom + " ");
