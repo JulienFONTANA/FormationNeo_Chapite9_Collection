@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FormationNeo_Chapite8_Classes_Solution
+namespace Ressources_Partagés
 {
-    class Villain : Personne
+    public class Villain : Personne
     {
         public string NomDeVillain { get; set; }
 

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FormationNeo_Chapite8_Classes_Solution
+namespace Ressources_Partagés
 {
-    class SuperHero : Hero
+    public class SuperHero : Hero
     {
         public string SuperSymbol { get; set; }
         public Villain EnnemiJure { get; set; }

@@ -133,7 +133,7 @@ namespace FormationNeo_Chapite9_Collection
             #endregion
 
             // Listes
-            // Une Liste est exactement ce que le terme suppose, une liste de variable
+            // Une Liste est exactement ce que le terme suppose, une liste de variable.
             // L'énorme avantage par rapport à un tableau est le nombre de traitement que
             // cette collection propose!
             #region Listes
@@ -178,7 +178,7 @@ namespace FormationNeo_Chapite9_Collection
             #endregion
 
             // Dictionnaires
-            // Les dictionnaires sont encore un conteneur dont le terme est explicite
+            // Les dictionnaires sont encore un conteneur dont le terme est explicite.
             // Un dictionnaire est une liste dont ont accède aux éléments via leur index,
             // comme lorsque l'on recherche un mot... dans le dictionnaire!
             // Avouez que le monde est parfois bien fait!
