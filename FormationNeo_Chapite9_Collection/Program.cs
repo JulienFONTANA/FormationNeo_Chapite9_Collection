@@ -82,7 +82,7 @@ namespace FormationNeo_Chapite9_Collection
             monTableauDouble[3] = 3.56667;
             monTableauDouble[4] = 0.12345;
             monTableauDouble[4] = 2.00000;  // On peut réafecter une valeur à un tableau...
-            monTableauDouble[4] += 7.87654; // ... et effectuer les même traitement que sur une variable
+            monTableauDouble[4] = monTableauDouble[4] + 7.87654; // ... et effectuer les même traitement que sur une variable
 
             AfficheTableau(monTableauDouble);
 
@@ -199,8 +199,8 @@ namespace FormationNeo_Chapite9_Collection
             string message = "";
             foreach (var entree in monDico) // Pour chaque entrée de mon dictionnaire...
             {
-                message += entree.Key; // ...je récupère le nom de la personne...
-                message += " ";
+                message = message + entree.Key; // ...je récupère le nom de la personne...
+                message = message + " ";
             }
             Console.WriteLine("Mon dictionnaire contient les noms : " + message); // ...puis je les affiches!
             // On peut dès à présent ajouter et retirer des personnes dans ce dictionnaire à loisir,
