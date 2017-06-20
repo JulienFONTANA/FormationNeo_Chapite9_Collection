@@ -2,7 +2,7 @@
 
 /* Classe "Hero"
  * 
- * Cette classe est ce qui sert de base aux super-héros
+ * Cette classe est ce qui sert de base aux superhéros
 */
 
 namespace Ressources_Partagés

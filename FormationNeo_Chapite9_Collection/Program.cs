@@ -184,7 +184,7 @@ namespace FormationNeo_Chapite9_Collection
             Console.WriteLine('\n' + "- - - Les Dictionnaires - - -");
             // Ce dictionnaire prend le nom d'une personne comme "clé"
             // Quand on a le nom de quelqu'uin qui se trouve dans ce dictionnaire, on a accès à
-            // l'objet Personne associé. Attention au doublons!
+            // l'objet Personne associé. Attention au doublons, chaque clé doit être unique dans un dictionnaire!
             Dictionary<string, Personne> monDico = new Dictionary<string, Personne>();
             monDico.Add(P3.Nom, P3);
             monDico.Add(P2.Nom, P2);

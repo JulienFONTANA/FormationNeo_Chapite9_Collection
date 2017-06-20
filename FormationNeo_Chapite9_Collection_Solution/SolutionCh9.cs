@@ -45,7 +45,7 @@ namespace FormationNeo_Chapite9_Collection_Solution
             Console.WriteLine();
 
 
-            // Faites un tableau à deux dimensions contenant un couple de valeurs dont la première est un chiffre entre 0 et 9
+            // Faites un tableau à deux dimensions de neuf lignes contenant un couple de valeurs dont la première est un chiffre entre 0 et 9
             // et la seconde ça valeur au carrée, puis afficher le résultat
 
             int[,] tabCarre = new int[9, 2]; // Tableau de 9 lignes et de 2 colonnes

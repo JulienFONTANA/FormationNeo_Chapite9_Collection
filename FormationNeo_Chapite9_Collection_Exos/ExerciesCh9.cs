@@ -25,7 +25,7 @@ namespace FormationNeo_Chapite9_Collection_Exos
             // Faites un tableau contenant tout les chiffres impaires entre 0 et 20, puis afficher le résultat
             // en utilisant une boucle foreach!
 
-            // Faites un tableau à deux dimensions contenant un couple de valeurs dont la première est un chiffre entre 0 et 9
+            // Faites un tableau à deux dimensions de neuf lignes contenant un couple de valeurs dont la première est un chiffre entre 0 et 9
             // et la seconde ça valeur au carrée, puis afficher le résultat
 
             // Faites une liste contenant tout les héro et superhéro (oui, une seule liste)
